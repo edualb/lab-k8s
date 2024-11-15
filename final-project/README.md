@@ -29,8 +29,7 @@ $ minikube delete
 ![WEBPAGE](assets/webpage.png)
 
 #### Manifest applied & Pods
-
-
+![PODS](assets/pods.png)
 
 #### Testing HPA
 ![HPA-TESTING](assets/hpa-testing.png)
