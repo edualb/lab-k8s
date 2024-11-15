@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+data:
+  FLASK_DB_TYPE: "postgres"
+  FLASK_DB_HOST: "database-service"
+  FLASK_DB_PORT: "5432"
+  FLASK_DB_USER: "guessgame"
+  FLASK_DB_NAME: "guessgame_db"
+  FLASK_DB_PASSWORD: "guessgame123"
